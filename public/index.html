@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CodiaOCR</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <h1 id = "topheader">Codia OCR</h1>
+    <form id="myform" enctype="multipart/form-data">
+      <input id = "uploadimgsrc" name="file" type="file">
+      <button id = "submitbtn" type="submit">Upload</button>
+    </form>
+    <div id="imgcontainer">
+      <img id="displayimg" src="" alt="Not uploaded" />
+    </div>
+    <form>
+      <textarea id = "resultbox"></textarea>
+    </form>
+  </body>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+  <script type="text/javascript" src="../app.js"></script>
+</html>
